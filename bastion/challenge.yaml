@@ -1,0 +1,31 @@
+slug: bastion
+
+flags:
+  - data: "aprilfools{jwt_n0ne_2_ssrf_fl4g_l34k}"
+    caseSensitive: true
+    regex: false
+
+deploy:
+  hostingType: docker
+  port: 9999
+
+testing:
+  strategy: manual
+  writeup: "writeup.md"
+
+noctf:
+  version: 1.0
+  title: Bastion
+  categories:
+    - web
+  description: "A fortress of authentication and internal services. Can you breach the walls?"
+  difficulty: medium
+  tags:
+    author: cyril
+    theme: april-fools
+  hidden: true
+  scoring:
+    strategy: "core:static"
+    params:
+      base: 500
+  connection_info: "http://127.0.0.1:6705"

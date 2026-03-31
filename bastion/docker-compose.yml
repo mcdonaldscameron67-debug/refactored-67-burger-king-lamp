@@ -1,0 +1,13 @@
+name: web/bastion
+
+services:
+  app:
+    build: .
+    image: web/bastion
+    container_name: web-bastion
+    ports:
+      - "6705:9999"
+    env_file:
+      - .env
+    environment:
+      PORT: "9999"
