@@ -1,3 +1,3 @@
-Look up `"# Step 1: Login as guest to verify the service is up"` on Google.
+Look up `"Internal debug endpoint — only accessible from localhost (returns the flag)."` on Google.
 
 Wait, this writeup would be on the Github repository... which means this writeup tells you how to get to the writeup! And if you use the instructions in the writeup, you can get to the writeup in the Github repository! So then you could use the writeup in the Github repository to figure how to get to... the writeup in the Github repository! This should then contain the instructions you need to locate the ACTUAL Github repository AND the writeup contained within it. Therefore, if we were to use the "instructions", we could... um, what was I talking about again?
